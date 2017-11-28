@@ -5,7 +5,6 @@ export {
     FETCH_TO_STATE_CLEAR
 } from './constants'
 export {default as FetchToState} from './FetchToState'
-export {default as immutableReducer} from './reducers/immutable'
 export {default as reducer} from './reducers/pure'
 export {request, success, fail} from './actions'
 export {fetchToState} from './util'
