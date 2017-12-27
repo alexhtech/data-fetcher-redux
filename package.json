@@ -1,6 +1,6 @@
 {
     "name": "data-fetcher-redux",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "description": "wrapper around data fetcher, will fetch data and store it in the stote",
     "repository": "git@github.com:alexolefirenko/redux-data-fetcher.git",
     "author": "Alex <olefirenk@gmail.com>",
@@ -22,7 +22,7 @@
         "babel-preset-stage-2": "^6.24.1",
         "cross-env": "^5.1.1"
     },
-    "dependencies": {
+    "peerDependencies": {
         "data-fetcher": "^1.0.0-beta.4"
     }
 }
