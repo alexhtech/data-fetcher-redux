@@ -2,7 +2,6 @@
     "env": {
         "commonjs": {
             "presets": [
-                "react",
                 "env",
                 "stage-2"
             ],
@@ -12,7 +11,6 @@
         },
         "es6": {
             "presets": [
-                "react",
                 [
                     "env",
                     {
